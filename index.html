@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Education — Java Course</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold fs-4" href="#">Edujava</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!-- me-auto aligns items to left -->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#assignments">Assignments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Java
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#unit1">Unit 1 — Introduction to Java</a></li>
+            <li><a class="dropdown-item" href="#unit2">Unit 2 — OOP Concepts</a></li>
+            <li><a class="dropdown-item" href="#unit3">Unit 3 — Inheritance & Polymorphism</a></li>
+            <li><a class="dropdown-item" href="#unit4">Unit 4 — JDBC & File Handling</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Hero Section -->
+<header id="home" class="text-white" style="
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/java.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+">
+  <div class="container py-5">
+    <!-- Hero Text -->
+    <div class="text-center py-5" style="background-color: rgba(0,0,0,0.5); border-radius: 10px;">
+      <h1 class="display-4 fw-bold">Learn Java Effectively — From Basics to Real Projects</h1>
+      <p class="lead mt-3">Master Java programming step by step with detailed tutorials, examples, and hands-on exercises. Build a strong foundation to become a confident Java developer.</p>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="row text-dark mt-5 g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h6 class="card-title fw-bold">Unit 1</h6>
+            <p class="card-text">Start with Java basics: setup, syntax, variables, operators, and writing your first programs.</p>
+            <a href="#unit1" class="btn btn-primary btn-sm">Start Learning</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h6 class="card-title fw-bold">Unit 2</h6>
+            <p class="card-text">Learn Object-Oriented Programming: classes, objects, methods, encapsulation, and real-world examples.</p>
+            <a href="#unit2" class="btn btn-primary btn-sm">Start Learning</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h6 class="card-title fw-bold">Unit 3</h6>
+            <p class="card-text">Understand Inheritance, Polymorphism, and how to design reusable and maintainable Java code.</p>
+            <a href="#unit3" class="btn btn-primary btn-sm">Start Learning</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h6 class="card-title fw-bold">Unit 4</h6>
+            <p class="card-text">Connect Java with databases using JDBC and handle files efficiently for real applications.</p>
+            <a href="#unit4" class="btn btn-primary btn-sm">Start Learning</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+ <section id="units" class="py-5 bg-light">
+  <div class="container">
+    <!-- Unit 1 -->
+    <div id="unit1" class="mb-5 p-4 shadow-sm rounded bg-white">
+      <h4 class="fw-bold mb-3">Unit 1 — Introduction to Java</h4>
+      <p>Learn the foundation of Java programming including installation, environment setup, writing and running your first programs, understanding variables, data types, and control flow.</p>
+      <ul>
+        <li>Java Installation & Setup</li>
+        <li>Hello World Program</li>
+        <li>Variables, Data Types & Operators</li>
+        <li>Control Statements (if, switch, loops)</li>
+        <li>Basic Input & Output</li>
+      </ul>
+      <p>Video Tutorial:</p>
+      <div class="ratio ratio-16x9 unit-video">
+        <iframe src="https://www.youtube.com/embed/grEKMHGYyns" title="Unit 1 Video" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- Unit 2 -->
+    <div id="unit2" class="mb-5 p-4 shadow-sm rounded bg-white">
+      <h4 class="fw-bold mb-3">Unit 2 — Object-Oriented Programming</h4>
+      <p>Dive into OOP concepts: learn about classes, objects, methods, constructors, and encapsulation. Apply these concepts with practical coding examples.</p>
+      <ul>
+        <li>Classes & Objects</li>
+        <li>Constructors & Initialization</li>
+        <li>Methods & Encapsulation</li>
+        <li>Access Modifiers & Scope</li>
+        <li>Practical Exercises</li>
+      </ul>
+      <p>Video Tutorial:</p>
+      <div class="ratio ratio-16x9 unit-video">
+        <iframe src="https://www.youtube.com/embed/TBWX97e1E9g" title="Unit 2 Video" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- Unit 3 -->
+    <div id="unit3" class="mb-5 p-4 shadow-sm rounded bg-white">
+      <h4 class="fw-bold mb-3">Unit 3 — Inheritance & Polymorphism</h4>
+      <p>Learn how to extend classes, override methods, and implement polymorphism for scalable and maintainable code. Real-world examples will show why these concepts are essential.</p>
+      <ul>
+        <li>Single & Multilevel Inheritance</li>
+        <li>Method Overriding & super keyword</li>
+        <li>Polymorphism (Compile-time & Runtime)</li>
+        <li>Practical Use Cases</li>
+      </ul>
+      <p>Video Tutorial:</p>
+      <div class="ratio ratio-16x9 unit-video">
+        <iframe src="https://www.youtube.com/embed/3u1fu6f8Hto" title="Unit 3 Video" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- Unit 4 -->
+    <div id="unit4" class="mb-5 p-4 shadow-sm rounded bg-white">
+      <h4 class="fw-bold mb-3">Unit 4 — JDBC & File Handling</h4>
+      <p>Learn how to connect Java applications with databases, execute queries, and manage file input/output for real-world projects.</p>
+      <ul>
+        <li>JDBC Basics & Setup</li>
+        <li>Executing Queries & Handling Results</li>
+        <li>File Input & Output</li>
+        <li>CRUD Operations</li>
+        <li>Practical Examples</li>
+      </ul>
+      <p>Video Tutorial:</p>
+      <div class="ratio ratio-16x9 unit-video">
+        <iframe src="https://www.youtube.com/embed/MOQfTuOiBys" title="Unit 4 Video" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Assignments Section -->
+<section id="assignments" class="py-5 bg-light">
+  <div class="container">
+    <h4 class="fw-bold mb-4 text-primary">Assignments</h4>
+    <ul class="list-group">
+      <li class="list-group-item">Assignment 1 — Hello World & Basic I/O</li>
+      <li class="list-group-item">Assignment 2 — Create and use classes</li>
+      <li class="list-group-item">Assignment 3 — Inheritance & Polymorphism exercises</li>
+      <li class="list-group-item">Assignment 4 — JDBC database CRUD operations</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Contact / Footer -->
+<footer id="contact" class="bg-primary text-white py-4">
+  <div class="container text-center">
+    <h5 class="fw-bold mb-3">Contact</h5>
+    <p>Email: <a href="mailto:support@edujava.example" class="text-white text-decoration-underline">support@edujava.example</a> | Phone: +1 555 123 456</p>
+    <p class="mb-0">© 2025 EduJava. All rights reserved deepanshimishra</p>
+  </div>
+</footer>
+
+
+</body>
+</html>

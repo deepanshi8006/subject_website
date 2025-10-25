@@ -1,0 +1,96 @@
+header#home h1 {
+    font-size: 3rem;
+  }
+
+  header#home p.lead {
+    font-size: 1.25rem;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .card-title {
+    color: #007bff;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  #units h4 {
+    color: #007bff; 
+  }
+
+  #units ul {
+    margin-left: 20px;
+  }
+
+  #units ul li {
+    margin-bottom: 5px;
+  }
+
+  #units a.link-primary {
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  #units a.link-primary:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+   /* Assignments Section */
+  .unit-video {
+    max-width: 560px;
+    width: 100%;
+    margin: 1rem auto;
+  }
+  #assignments h4 {
+    font-size: 1.8rem;
+  }
+
+  #assignments .list-group-item {
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  #assignments .list-group-item:hover {
+    background-color: #e9f5ff;
+    transform: translateX(5px);
+  }
+
+  /* Footer */
+  #contact a {
+    color: #fff;
+  }
+
+  #contact a:hover {
+    color: #ffd700;
+    text-decoration: none;
+  }
+
+  #contact h5 {
+    font-size: 1.5rem;
+  }
+  /* Add subtle hover effect on each unit card */
+  #units > .container > div:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+  }
+
+
+
+  @media (max-width: 768px) {
+    header#home h1 {
+      font-size: 2rem;
+    }
+    header#home p.lead {
+      font-size: 1rem;
+    }
+  }
